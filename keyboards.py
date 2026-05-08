@@ -26,7 +26,7 @@ def kb_cancel_inline() -> InlineKeyboardMarkup:
 
 def kb_cancel_with_skip_passport() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="Мне нет 18+", callback_data="skip_passport")],
+        [InlineKeyboardButton(text="Мне нет 14", callback_data="skip_passport")],
         [InlineKeyboardButton(text="✕  Отмена",   callback_data="cancel_reg")],
     ])
 
