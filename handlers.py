@@ -517,7 +517,7 @@ async def cb_skip_passport(call: CallbackQuery, state: FSMContext, bot: Bot):
         f"<b>Имя:</b> {name}\n"
         f"<b>Username:</b> {uname}\n"
         f"<b>Телефон:</b> <code>{phone}</code>\n\n"
-        "<blockquote>Пользователь указал что ему нет 18 лет.\n"
+        "<blockquote>Пользователь указал что ему нет 14 лет.\n"
         "Паспорт не предоставлен.</blockquote>"
     )
     for admin_id in ADMIN_IDS:
